@@ -5,7 +5,7 @@ import { ProductController } from './product.controller';
 import {
   Product,
   ProductSchema,
-} from './shared/database/mongo/schemas/product.schema';
+} from 'src/shared/database/mongo/schemas/product.schema';
 
 @Module({
   imports: [

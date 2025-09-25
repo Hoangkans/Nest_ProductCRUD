@@ -4,9 +4,9 @@ import { Model } from 'mongoose';
 import {
   Product,
   ProductDocument,
-} from 'src/product/shared/database/mongo/schemas/product.schema';
-import { CreateProductDto } from './shared/database/mongo/dto/create-product.dto';
-import { UpdateProductDto } from './shared/database/mongo/dto/update-product.dto';
+} from 'src/shared/database/mongo/schemas/product.schema';
+import { CreateProductDto } from '../shared/database/mongo/dto/create-product.dto';
+import { UpdateProductDto } from '../shared/database/mongo/dto/update-product.dto';
 
 @Injectable()
 export class ProductService {
